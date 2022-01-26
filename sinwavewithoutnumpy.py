@@ -10,11 +10,11 @@ def sinevalue(val):
         sum+=a
         i+=2
         b+=1
-        print(a)
+        
     return sum
 x=[]
 y=[]
-print(sinevalue(0))
+
 j=0
 while(j<=2*math.pi):
     x.append(j)
